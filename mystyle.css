@@ -1,0 +1,26 @@
+@keyframes AnimateBG {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+.ping-button {
+	position: relative;
+	overflow: hidden;
+	background-image: linear-gradient(
+		-45deg,
+		#33CC36 0%,
+		#B8CC33 25%,
+		#FCCA00 51%,
+		#33CCCC 100%
+	);
+	animation: AnimateBG 20s ease infinite;
+	background-size: 400% 400%;
+	transition: 0.6s;
+	font-size: 16px;
+}
+
+.mytable {
+	margin-left:10%;
+	margin-right:33%;
+}
+
