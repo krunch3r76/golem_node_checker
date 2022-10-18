@@ -4,9 +4,9 @@ The connection is made to a mysql database to which the following table was crea
 ```
 create table yagna_pings (id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
                           ipaddress VARCHAR(255) NOT NULL,
-                           lasttime INT NOT NULL,
-                           UNIQUE (ipaddress)
-                           );
+                          lasttime INT NOT NULL,
+                          UNIQUE (ipaddress)
+                          );
 ```
 ipaddress is stored as an sha1 hash which is 40 characters as a hexstring. 255 is more than enough and allows for changing the hash algorithm. sha1 was arbitrarily chosen but is sufficiently secure in this context.
 
