@@ -116,6 +116,7 @@ include('../../mysqli_connect.php'); // this declares $dbc, the mysqli object
 $dbc = mysqli_connect('localhost', 'username', 'password', 'database');
 mysqli_set_charset($dbc, 'utf8');
 EOF
+*/
 
 $server = strip_tags(trim($_POST["ipaddr"]));
 $port = strip_tags($_POST["port"]);
