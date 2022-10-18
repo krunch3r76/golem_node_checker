@@ -14,4 +14,6 @@ the ipaddress is stored as a hash to protect the privacy of people visiting the 
 
 while not fitting the strict definition of a ping, as a ping occurs as an icmp packet and this as a udp packet, it follows a similar pattern. a request bytestring followed some arbitrary payload with an reply of the same bytestring followed by a payload. The payload is one-to-one so that the reply's payload is invariably the same. i discovered this ping behavior while monitoring communications from my yagna node on my ethernet interface to discover the "name" to which yagna will always reply, like, "yagna?" gets the reply "yes?" in byte talk. i call it, the evocation of yagna.
 
+enochian like bs aside, if there is use beyond the testing phase of the new networking model, i shall further develop this to expound on the specification of the ping in both the code and in the readme. it is as of yet well hidden in the yagna code. nevertheless, the same echo request begets the same echo reply and that is sufficient for now.
+
 references: [1] https://en.wikipedia.org/wiki/Ping_(networking_utility)
