@@ -17,3 +17,6 @@ while not fitting the strict definition of a ping, as a ping occurs as an icmp p
 enochian like bs aside, if there is use beyond the testing phase of the new networking model, i shall further develop this to expound on the specification of the ping in both the code and in the readme. it is as of yet well hidden in the yagna code. nevertheless, the same echo request begets the same echo reply and that is sufficient for now.
 
 references: [1] https://en.wikipedia.org/wiki/Ping_(networking_utility)
+
+phun sufficient association for inspiration:
+Matthew 6:33-34: But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you. Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day *is* the evil thereof.
