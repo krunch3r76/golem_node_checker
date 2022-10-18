@@ -1,4 +1,6 @@
-Briefly this will only work if a php script that creates a mysql database connection $dbc is added by the developer. See code for details and an example.
+A live version of this is currently hosted at https://www.k-1.me/golem
+
+Briefly this will only run on a custom server if a php script that creates a mysql database connection $dbc is added by the developer. See code for details and an example.
 
 This database connection is made to a mysql database to which the following table was created and added unto as so:
 ```
