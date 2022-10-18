@@ -108,9 +108,15 @@ function ping_yagna($server="", $port=-1) {
     return $success;
 }
 
-ini_set('display_errors',1);
-error_reporting(E_ALL);
-include('../../mysqli_connect.php');
+// ini_set('display_errors',1);
+// error_reporting(E_ALL);
+include('../../mysqli_connect.php'); // this declares $dbc, the mysqli object
+/* an example mysqli_connect.php
+<?php
+$dbc = mysqli_connect('localhost', 'username', 'password', 'database');
+mysqli_set_charset($dbc, 'utf8');
+EOF
+
 $server = strip_tags(trim($_POST["ipaddr"]));
 $port = strip_tags($_POST["port"]);
 
