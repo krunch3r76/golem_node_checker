@@ -1,4 +1,4 @@
-A live version of this is currently hosted at https://www.k-1.me/golem
+A live version of this has been hosted at https://www.k-1.me/golem
 
 Briefly this will only run on a custom server if a php script that creates a mysql database connection $dbc is added by the developer. See code for details and an example.
 
