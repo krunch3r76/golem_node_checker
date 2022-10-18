@@ -12,4 +12,4 @@ ipaddress is stored as an sha1 hash which is 40 characters as a hexstring. 255 i
 
 the ipaddress is stored as a hash to protect the privacy of people visiting the site not only from the site website operator/developer but from anyone who might gain access to the database besides.
 
-the ping works by sending a specific stream of bytes to which yagna invariable responds in the same way every time. it is a "word" that yagna recognizes and makes the same response to every time. it is not a ping by definition of a ping, that is, the bytestring is not echo'ed back, instead, a different word, but always the same, is read back. yagna speaks! thus yagna can be pinged!
+the ping works by sending a specific stream of bytes to which yagna invariable responds in the same way every time. it is a "word" that yagna recognizes and makes the same response to every time. it is not a ping by definition of a ping, that is, the bytestring is not echo'ed back, instead, a different word, but always the same, is read back. yagna speaks! thus yagna can be "pinged"! It is akin to calling yagna by its name and getting a "yes?" in return.
