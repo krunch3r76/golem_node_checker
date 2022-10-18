@@ -19,4 +19,4 @@ enochian like bs aside, if there is use beyond the testing phase of the new netw
 references: [1] https://en.wikipedia.org/wiki/Ping_(networking_utility)
 
 phun sufficient association for inspiration:
-Matthew 6:33-34: But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you. Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day *is* the evil thereof. if you don't get the last sentence, then it still makes a cool "poetic anchor". stay anchored everyone.
+Matthew 6:33-34: But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you. Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day *is* the evil thereof. if you don't get the last sentence, then it still makes a cool "poetic anchor".
