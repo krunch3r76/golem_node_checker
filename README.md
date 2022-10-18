@@ -1,6 +1,6 @@
-Briefly this is made complete with a php script that creates a database connection $dbc. See code for details.
+Briefly this will only work if a php script that creates a mysql database connection $dbc is added by the developer. See code for details and an example.
 
-The connection is made to a mysql database to which the following table was created and added unto as so:
+This database connection is made to a mysql database to which the following table was created and added unto as so:
 ```
 create table yagna_pings (id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
                           ipaddress VARCHAR(255) NOT NULL,
