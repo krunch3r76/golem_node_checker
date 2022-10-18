@@ -14,7 +14,7 @@ ipaddress is stored as an sha1 hash which is 40 characters as a hexstring. 255 i
 
 the ipaddress is stored as a hash to protect the privacy of people visiting the site not only from the site website operator/developer but from anyone who might gain access to the database besides.
 
-the ping is a narrowed down yagna specific echo request to which there is a determinate echo reply. the website uses the same echo request each time, as there is no information beyond reachability that is useful here.
+the ping [1] is a narrowed down yagna specific echo request to which there is a determinate echo reply. the website uses the same echo request each time, as there is no information beyond reachability that is useful here.
 
 
 references: [1] https://en.wikipedia.org/wiki/Ping_(networking_utility)
